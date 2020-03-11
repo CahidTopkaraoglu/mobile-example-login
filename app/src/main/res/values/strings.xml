@@ -5,4 +5,12 @@
     <string name="enter_username_hint">Enter userName</string>
     <string name="enter_password_hint">Enter password</string>
     <string name="login_string">Login</string>
+
+    <string name="to_string">To</string>
+    <string name="subject_string">Subject</string>
+    <string name="message_string">Message</string>
+    <string name="enter_to_hint">Enter to</string>
+    <string name="enter_subject_hint">Enter subject</string>
+    <string name="enter_message_hint">Enter message</string>
+    <string name="send_string">Send</string>
 </resources>
