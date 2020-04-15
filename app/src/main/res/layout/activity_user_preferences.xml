@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <!--UserName-->
+    <TextView
+        android:id="@+id/username_pref_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username_string" />
+
+    <EditText
+        android:id="@+id/username_pref_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_username_hint"
+        android:inputType="text" />
+    <!--Gender-->
+    <TextView
+        android:id="@+id/gender_pref_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gender_string" />
+
+    <Spinner
+        android:id="@+id/gender_pref_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/gender_arrays"
+        android:prompt="@string/enter_gender_hint" />
+    <!--Age-->
+    <TextView
+        android:id="@+id/age_pref_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_string" />
+    <EditText
+        android:id="@+id/age_pref_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_age_hint"
+        android:inputType="number" />
+    <!--Weight-->
+    <TextView
+        android:id="@+id/weight_pref_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weight_string" />
+
+    <EditText
+        android:id="@+id/weight_pref_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_weight_hint"
+        android:inputType="numberDecimal" />
+    <!--Height-->
+    <TextView
+        android:id="@+id/height_pref_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/height_string" />
+
+    <EditText
+        android:id="@+id/height_pref_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_height_hint"
+        android:inputType="numberDecimal" />
+    <!--Application Mode-->
+    <TextView
+        android:id="@+id/application_mode_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/application_mode_string" />
+
+    <Spinner
+        android:id="@+id/application_mode_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/application_mode_arrays"
+        android:prompt="@string/enter_application_mode_hint" />
+    <!--Language-->
+    <TextView
+        android:id="@+id/language_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/language_string" />
+
+    <Spinner
+        android:id="@+id/language_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/language_arrays"
+        android:prompt="@string/enter_language_hint" />
+
+    <Button
+        android:id="@+id/pref_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/save_string" />
+</LinearLayout>

@@ -36,4 +36,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:text="@string/login_string" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/register_string" />
 </LinearLayout>

@@ -1,10 +1,35 @@
 <resources>
     <string name="app_name">Week5</string>
     <string name="username_string">UserName</string>
+    <string name="gender_string">Gender</string>
+    <string name="age_string">Age</string>
+    <string name="weight_string">Weight</string>
+    <string name="height_string">Height</string>
+    <string name="application_mode_string">Application Mode</string>
+    <string name="language_string">Language</string>
     <string name="password_string">Password</string>
     <string name="enter_username_hint">Enter userName</string>
+    <string name="enter_gender_hint">Choose gender</string>
+    <string-array name="gender_arrays">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="enter_age_hint">Enter age</string>
+    <string name="enter_weight_hint">Enter weight</string>
+    <string name="enter_height_hint">Enter height</string>
+    <string name="enter_application_mode_hint">Enter Application Mode</string>
+    <string-array name="application_mode_arrays">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string name="enter_language_hint">Enter Language</string>
+    <string-array name="language_arrays">
+        <item>English</item>
+        <item>Turkish</item>
+    </string-array>
     <string name="enter_password_hint">Enter password</string>
     <string name="login_string">Login</string>
+    <string name="register_string">Register</string>
 
     <string name="to_string">To</string>
     <string name="subject_string">Subject</string>
@@ -13,4 +38,21 @@
     <string name="enter_subject_hint">Enter subject</string>
     <string name="enter_message_hint">Enter message</string>
     <string name="send_string">Send</string>
+    <string name="save_string">Save</string>
+    <string name="user_reference_string">User Preferences</string>
+    <string name="light_sensor_string">Light Sensor</string>
+    <string name="acceleration_sensor_string">Acceleration Sensor</string>
+
+    <string name="saved_user_name">userNameKey</string>
+    <string name="saved_password">passwordKey</string>
+    <string name="saved_gender">genderKey</string>
+    <string name="saved_age">ageKey</string>
+    <string name="saved_weight">weightKey</string>
+    <string name="saved_height">heightKey</string>
+    <string name="saved_application_mode">applicationModeKey</string>
+    <string name="saved_language">languageKey</string>
+
+    <string name="default_application_mode">Dark</string>
+    <string name="default_language">English</string>
+    <string name="default_gender">Male</string>
 </resources>

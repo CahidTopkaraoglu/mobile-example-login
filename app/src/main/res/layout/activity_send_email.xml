@@ -48,4 +48,25 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:text="@string/send_string" />
+
+    <Button
+        android:id="@+id/user_reference_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/user_reference_string" />
+
+    <Button
+        android:id="@+id/light_sensor_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/light_sensor_string" />
+
+    <Button
+        android:id="@+id/acceleration_sensor_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/acceleration_sensor_string" />
 </LinearLayout>
