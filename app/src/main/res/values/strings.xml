@@ -55,4 +55,11 @@
     <string name="default_application_mode">Dark</string>
     <string name="default_language">English</string>
     <string name="default_gender">Male</string>
+
+    <string name="x_label_string">X:</string>
+    <string name="x_value_string">0</string>
+    <string name="y_label_string">Y:</string>
+    <string name="y_value_string">0</string>
+    <string name="z_label_string">Z:</string>
+    <string name="z_value_string">0</string>
 </resources>

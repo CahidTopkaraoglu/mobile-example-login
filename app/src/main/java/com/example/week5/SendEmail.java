@@ -59,7 +59,7 @@ public class SendEmail extends AppCompatActivity {
         accelerationSensor.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent userPreferences = new Intent(SendEmail.this, SensorAct.class);
+                Intent userPreferences = new Intent(SendEmail.this, AccelerationSensor.class);
                 startActivity(userPreferences);
             }
         });

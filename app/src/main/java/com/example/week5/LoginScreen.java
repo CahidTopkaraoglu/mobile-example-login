@@ -35,10 +35,10 @@ public class LoginScreen extends AppCompatActivity {
             public void onClick(View v) {
                 User user = new User();
                 user.setUserName(uname.getText().toString());
-                user.setUserName(password.getText().toString());
+                user.setPassword(password.getText().toString());
 
-                String _UserName  = sharedpreferences.getString(user.getUserName()+"_key_username","");
-                String _Password  = sharedpreferences.getString(user.getUserName()+"_key_password","");
+                String _UserName  = sharedpreferences.getString(user.getUserName()+"_key_username",null);
+                String _Password  = sharedpreferences.getString(user.getUserName()+"_key_password",null);
                 if(TextUtils.isEmpty(_UserName) == false && TextUtils.isEmpty(_Password) == false)
                 {
                     if(user.getUserName().equals(_UserName) && user.getPassword().equals(_Password)){
@@ -62,13 +62,15 @@ public class LoginScreen extends AppCompatActivity {
             public void onClick(View v) {
                 User user = new User();
                 user.setUserName(uname.getText().toString());
-                user.setUserName(password.getText().toString());
+                user.setPassword(password.getText().toString());
 
                 SharedPreferences.Editor editor = sharedpreferences.edit();
 
                 editor.putString(user.getUserName()+"_key_username", user.getUserName());
                 editor.putString(user.getUserName()+"_key_password", user.getPassword());
                 editor.commit();
+
+                Toast.makeText(getApplicationContext(),user.getUserName() + " user saved.", Toast.LENGTH_LONG).show();
             }
         });
     }
