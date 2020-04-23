@@ -1,72 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SendEmail" >
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/logo_string"
+        android:src="@drawable/mail_logo" />
 
     <TextView
         android:id="@+id/to_textview"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/to_string" />
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="190dp"
+        android:text="@string/to_string"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/to_edittext"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="220dp"
+        android:autofillHints="@string/enter_to_hint"
+        android:ems="20"
         android:hint="@string/enter_to_hint"
-        android:inputType="text" />
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="20sp" />
+
     <TextView
         android:id="@+id/subject_textview"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/subject_string" />
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="270dp"
+        android:text="@string/subject_string"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/subject_edittext"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:autofillHints="@string/enter_subject_hint"
+        android:ems="20"
         android:hint="@string/enter_subject_hint"
-        android:inputType="text" />
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/message_textview"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/message_string" />
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:text="@string/message_string"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/message_edittext"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="380dp"
+        android:autofillHints="@string/enter_message_hint"
+        android:ems="20"
         android:hint="@string/enter_message_hint"
-        android:inputType="text" />
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/file_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="430dp"
+        android:text="@string/file_string"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/file_path_textview"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="460dp"
+        android:autofillHints="@string/file_hint"
+        android:ems="20"
+        android:hint="@string/file_hint"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/file_choose_button"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="462dp"
+        android:background="@color/colorOrange"
+        android:drawableStart="@drawable/ic_folder" />
 
     <Button
         android:id="@+id/send_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="510dp"
+        android:background="@color/colorBlue"
+        android:drawableStart="@drawable/ic_send"
         android:text="@string/send_string" />
 
-    <Button
-        android:id="@+id/user_reference_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:text="@string/user_reference_string" />
-
-    <Button
-        android:id="@+id/light_sensor_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:text="@string/light_sensor_string" />
-
-    <Button
-        android:id="@+id/acceleration_sensor_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:text="@string/acceleration_sensor_string" />
-</LinearLayout>
+</RelativeLayout>

@@ -42,7 +42,6 @@ public class UserPreferences extends AppCompatActivity {
 
         String _Saved_UserName  = sharedpreferences.getString(getString(R.string.saved_user_name),"");
         Toast toast = Toast.makeText(getApplicationContext(), _Saved_UserName, Toast.LENGTH_SHORT);
-        toast.show();
         if(TextUtils.isEmpty(_Saved_UserName) == false)
         {
             ed_username.setText(_Saved_UserName.toString());

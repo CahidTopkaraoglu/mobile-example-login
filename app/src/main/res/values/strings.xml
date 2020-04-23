@@ -8,6 +8,7 @@
     <string name="application_mode_string">Application Mode</string>
     <string name="language_string">Language</string>
     <string name="password_string">Password</string>
+    <string name="file_string">File</string>
     <string name="enter_username_hint">Enter userName</string>
     <string name="enter_gender_hint">Choose gender</string>
     <string-array name="gender_arrays">
@@ -17,6 +18,7 @@
     <string name="enter_age_hint">Enter age</string>
     <string name="enter_weight_hint">Enter weight</string>
     <string name="enter_height_hint">Enter height</string>
+    <string name="file_hint">Choose a File</string>
     <string name="enter_application_mode_hint">Enter Application Mode</string>
     <string-array name="application_mode_arrays">
         <item>Light</item>
@@ -30,6 +32,7 @@
     <string name="enter_password_hint">Enter password</string>
     <string name="login_string">Login</string>
     <string name="register_string">Register</string>
+    <string name="logo_string">Logo</string>
 
     <string name="to_string">To</string>
     <string name="subject_string">Subject</string>
@@ -39,9 +42,12 @@
     <string name="enter_message_hint">Enter message</string>
     <string name="send_string">Send</string>
     <string name="save_string">Save</string>
+    <string name="send_mail_string">Send Mail</string>
     <string name="user_reference_string">User Preferences</string>
     <string name="light_sensor_string">Light Sensor</string>
     <string name="acceleration_sensor_string">Acceleration Sensor</string>
+    <string name="incoming_call_string">Incoming Call</string>
+    <string name="file_choose_string">Choose File</string>
 
     <string name="saved_user_name">userNameKey</string>
     <string name="saved_password">passwordKey</string>
@@ -62,4 +68,13 @@
     <string name="y_value_string">0</string>
     <string name="z_label_string">Z:</string>
     <string name="z_value_string">0</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>

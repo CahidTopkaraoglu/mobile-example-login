@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MenuActivity" >
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/send_mail_button"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp"
+        android:background="@color/colorBlue"
+        android:text="@string/send_mail_string" />
+
+    <Button
+        android:id="@+id/user_reference_button"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="280dp"
+        android:background="@color/colorOrange"
+        android:text="@string/user_reference_string" />
+
+    <Button
+        android:id="@+id/light_sensor_button"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="380dp"
+        android:background="@color/colorGreen"
+        android:text="@string/light_sensor_string" />
+
+    <Button
+        android:id="@+id/acceleration_sensor_button"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="380dp"
+        android:background="@color/colorPurple"
+        android:text="@string/acceleration_sensor_string" />
+
+    <Button
+        android:id="@+id/incomin_call_button"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="480dp"
+        android:background="@color/colorRed"
+        android:text="@string/incoming_call_string" />
+
+</RelativeLayout>
